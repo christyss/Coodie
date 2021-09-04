@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1"
+=======
+    "uniqid": "^5.4.0"
+>>>>>>> origin/develop
   }
 }

@@ -1,0 +1,19 @@
+@use '../../partials/mixins' as *;
+
+.selection-btn{
+    margin: 0.5rem;
+
+    &__asian{
+        @include selectButton;
+        color: #DB2E24;
+    }
+    &__western{
+        @include selectButton;
+        margin: 0 0.5rem;
+        color: #315AA5;
+    }
+    &__vegan{
+        @include selectButton;
+        color:#94A531;
+    }
+}

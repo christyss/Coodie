@@ -1,0 +1,10 @@
+@use '../../partials/gloabal';
+
+.header{
+    margin: 2rem 1rem;
+    border-bottom: 1px solid white;
+
+    .page-title{
+        font-size: 3rem;
+    }
+}

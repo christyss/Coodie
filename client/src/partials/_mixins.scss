@@ -4,3 +4,9 @@
     font-weight: bold;
     
 }
+
+@mixin desktop {
+    @media screen and (min-width: 1280px) {
+        @content;
+    }
+}

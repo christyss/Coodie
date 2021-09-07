@@ -29,7 +29,7 @@
     {
         "id": "2",
         "name": "COCA COLA CHICKEN WING",
-        "image": "http://localhost:8080/images/asian-coke-wing.jpeg",
+        "image": "http://localhost:8080/images/asian-coke-wings.jpeg",
         "serves": "1 - 2 servings",
         "prepTime": "10 mins",
         "cookTime": "25 mins",

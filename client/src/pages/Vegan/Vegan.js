@@ -50,19 +50,23 @@ class VeganPage extends Component {
         <SelectButton />
         <img src={this.state.selectedVeganFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedVeganFood.name}`} />
         <div className="dish">
-          <h3 className="dish__name">Name: <span>{this.state.selectedVeganFood.name}</span></h3>
-          <h3 className="dish__serves">Serves: <span>{this.state.selectedVeganFood.serves}</span></h3>
-          <h3 className="dish__prep-time">Prep-Time: <span>{this.state.selectedVeganFood.prepTime}</span></h3>
-          <h3 className="dish__cook-time">Cook Time: <span>{this.state.selectedVeganFood.cookTime}</span></h3>
-          <h3 className="dish__total-time">Total Time: <span>{this.state.selectedVeganFood.totalTime}</span></h3>
-          <ul className="dish__ingredients">
-            <h3>Ingredients:</h3>
-            {this.state.selectedVeganFood.recipeIngredient.map(ingredient => (
-              <li className="dish__ingredients-list">{ingredient}</li>
-            ))}
-          </ul>
+          <div className='dish__flex'>
+            <div className='dish__flex-info'>
+              <h3 className="dish__name"><span className='dish__span'> Name:</span> <span>{this.state.selectedVeganFood.name}</span></h3>
+              <h3 className="dish__serves"> <span className='dish__span'>Serves:</span> <span>{this.state.selectedVeganFood.serves}</span></h3>
+              <h3 className="dish__prep-time"> <span className='dish__span'>Prep-Time:</span> <span>{this.state.selectedVeganFood.prepTime}</span></h3>
+              <h3 className="dish__cook-time"> <span className='dish__span'>Cook Time:</span> <span>{this.state.selectedVeganFood.cookTime}</span></h3>
+              <h3 className="dish__total-time"> <span className='dish__span'>Total Time: </span><span>{this.state.selectedVeganFood.totalTime}</span></h3>
+            </div>
+            <ul className="dish__ingredients">
+              <h3 className='dish__ingredients-title'>Ingredients:</h3>
+              {this.state.selectedVeganFood.recipeIngredient.map(ingredient => (
+                <li className="dish__ingredients-list">{ingredient}</li>
+              ))}
+            </ul>
+          </div>
           <ol className="dish__instruction">
-            <h3>Instruction:</h3>
+            <h3 className='dish__ingredients-title'>Instruction:</h3>
             {this.state.selectedVeganFood.recipeInstruction.map(instruction => (
               <li className="dish__ingredients-list">{instruction}</li>
             ))}

@@ -18,20 +18,19 @@ class AsianPage extends Component{
   
   render(){  
     return (
-      <section className="asian">
-      <div className="asian-dish__image"></div>
-      <button className="dish-btn">Shuffle</button>
-      <div className="asian-dish">
-        <h3 className="asian-dish__name">Name: <span></span></h3>
-        <h3 className="asian-dish__serves">Serves: <span></span></h3>
-        <h3 className="asian-dish__prep-time">Prep-Time: <span></span></h3>
-        <h3 className="asian-dish__cook-time">Cook Time: <span></span></h3>
-        <h3 className="asian-dish__total-time">Total Time: <span></span></h3>
-        <ul className="asian-dish__ingredients">
+      <section className="dish-section asian">
+      <div className="dish__image"></div>
+      <div className="dish">
+        <h3 className="dish__name">Name: <span></span></h3>
+        <h3 className="dish__serves">Serves: <span></span></h3>
+        <h3 className="dish__prep-time">Prep-Time: <span></span></h3>
+        <h3 className="dish__cook-time">Cook Time: <span></span></h3>
+        <h3 className="dish__total-time">Total Time: <span></span></h3>
+        <ul className="dish__ingredients">
           Ingredients:
           <li></li>
         </ul>
-        <ol className="asian-dish__instruction">
+        <ol className="dish__instruction">
           Instruction:
           <li></li>
         </ol>

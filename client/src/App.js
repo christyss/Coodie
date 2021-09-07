@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Header from './components/PageHeader/PageHeader';
+import Home from './pages/Home/Home';
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
 class App extends Component {

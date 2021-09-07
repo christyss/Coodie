@@ -11,8 +11,8 @@ class AsianPage extends Component {
     selectedAsianFood: null,
   }
 
-  getAsianRecipes = (recipeId) => {
-    axios.get(`http://localhost:8080/asian/${recipeId}`)
+  getAsianRecipes = (id) => {
+    axios.get(`http://localhost:8080/asian/${id}`)
       .then(response => {
         this.setState({ selectedAsianFood: response.data, })
       })
@@ -31,8 +31,8 @@ class AsianPage extends Component {
         this.setState({
           asianFoodRecipe: response.data
         })
-        const recipeId = response.data[0].id
-        this.getAsianRecipes(recipeId)
+        const id = this.props.match.params.id || response.data[0].id;
+        this.getAsianRecipes(id)
       })
   }
 

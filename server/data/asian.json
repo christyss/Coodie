@@ -1,6 +1,6 @@
 [
     {
-        "id": "1001",
+        "id": "1",
         "name": "Ginger Pork - Pork Shogayaki",
         "image": "http://localhost:8080/images/asian-pork.jpeg",
         "serves": "1 - 2 servings",
@@ -8,17 +8,17 @@
         "cookTime": "10 mins",
         "totalTime": "15 mins",
         "recipeIngredient": [
-            "8 oz thinly sliced pork belly", 
-            "1 inch ginger grated", 
-            "1/2 medium yellow onion sliced", 
-            "2 tbsp soy sauce", 
-            "2 tbsp mirin", 
-            "2 tbsp rice wine", 
+            "8 oz thinly sliced pork belly",
+            "1 inch ginger grated",
+            "1/2 medium yellow onion sliced",
+            "2 tbsp soy sauce",
+            "2 tbsp mirin",
+            "2 tbsp rice wine",
             "1 tsp sugar"
         ],
         "recipeInstruction": [
-            "grate ginger with a grater and slice onion", 
-            "pan fry thinly sliced pork", 
+            "grate ginger with a grater and slice onion",
+            "pan fry thinly sliced pork",
             "add onions and ginger",
             "add soy sauce, mirin, rice wine, and sugar and stir to incorporate",
             "cover with lid and cook for 3-5 minutes",
@@ -27,27 +27,27 @@
         ]
     },
     {
-        "id": "1002",
+        "id": "2",
         "name": "COCA COLA CHICKEN WING",
-        "image": "http://localhost:8080/images/asian-coke-wing.jpeg",
+        "image": "http://localhost:8080/images/asian-coke-wings.jpeg",
         "serves": "1 - 2 servings",
         "prepTime": "10 mins",
         "cookTime": "25 mins",
         "totalTime": "35 mins",
         "recipeIngredient": [
-            "12 chicken wings", 
-            "Vegetable oil", 
-            "1 can coca-cola", 
-            "3 pieces of ginger", 
-            "1/3 teaspoon salt", 
+            "12 chicken wings",
+            "Vegetable oil",
+            "1 can coca-cola",
+            "3 pieces of ginger",
+            "1/3 teaspoon salt",
             "2 tablespoons beer",
-            "1 tablespoon light soy sauce", 
+            "1 tablespoon light soy sauce",
             "1/2 tablespoon dark soy sauce",
             "1 teaspoon cooked white sesame seeds"
         ],
         "recipeInstruction": [
-            "Wash the chicken wings with water. Cut two knives on the back of the chicken wings. Cut a piece of ginger into silks", 
-            "Add the chicken wings, 2 pieces of ginger and enough water in a pan and cook it until boiling. Continue to cook it for 2 minutes. Pour off the hot water, wash and drain the chicken wings", 
+            "Wash the chicken wings with water. Cut two knives on the back of the chicken wings. Cut a piece of ginger into silks",
+            "Add the chicken wings, 2 pieces of ginger and enough water in a pan and cook it until boiling. Continue to cook it for 2 minutes. Pour off the hot water, wash and drain the chicken wings",
             "Heat a pan with oil, fry the chicken wings until fragrant. Turn it over and continue to fry it until fragrant",
             "Sprinkle ginger silks and 2 tablespoons beer in the pan and cook it until the beer has thickened. Add 1 tablespoon light soy sauce and 1/2 tablespoon dark soy sauce in the pan",
             "Stir-fry the chicken wings a few times. Pour the coca-cola in the pan and cook it until boiling",
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "id": "1003",
+        "id": "3",
         "name": "Korean Beef Bulgogi",
         "image": "http://localhost:8080/images/asian-bulgogi.jpeg",
         "serves": "5 - 6 servings",
@@ -64,12 +64,12 @@
         "cookTime": "15 mins",
         "totalTime": "3 hrs",
         "recipeIngredient": [
-            "680 g boneless rib eye steak", 
-            "1/2 small pear, peeled and coarsely grated", 
-            "1/4 cup reduced sodium soy sauce", 
-            "2 tablespoons brown sugar", 
-            "2 tablespoons toasted sesame oil", 
-            "3 cloves garlic, minced", 
+            "680 g boneless rib eye steak",
+            "1/2 small pear, peeled and coarsely grated",
+            "1/4 cup reduced sodium soy sauce",
+            "2 tablespoons brown sugar",
+            "2 tablespoons toasted sesame oil",
+            "3 cloves garlic, minced",
             "1 tablespoon freshly grated ginger",
             "1 tablespoon gochujang (Korean red pepper paste)",
             "2 tablespoons vegetable oil, divided",
@@ -77,8 +77,8 @@
             "1 teaspoon toasted sesame seeds"
         ],
         "recipeInstruction": [
-            "Wrap steak in plastic wrap, and place in the freezer for 30 minutes. Unwrap and slice across the grain into 1/4-inch thick slices", 
-            "In a medium bowl, combine pear, soy sauce, brown sugar, sesame oil, garlic, ginger and gochujang. In a gallon size Ziploc bag, combine soy sauce mixture and steak; marinate for at least 2 hours to overnight, turning the bag occasionally", 
+            "Wrap steak in plastic wrap, and place in the freezer for 30 minutes. Unwrap and slice across the grain into 1/4-inch thick slices",
+            "In a medium bowl, combine pear, soy sauce, brown sugar, sesame oil, garlic, ginger and gochujang. In a gallon size Ziploc bag, combine soy sauce mixture and steak; marinate for at least 2 hours to overnight, turning the bag occasionally",
             "Heat 1 tablespoon vegetable oil in a cast iron grill pan over medium-high heat. * Working in batches, add steak to the grill pan in a single layer and cook, flipping once, until charred and cooked through, about 2-3 minutes per side. Repeat with remaining 1 tablespoon vegetable oil and steak",
             "Serve immediately, garnished with green onions and sesame seeds, if desired"
         ]

@@ -11,8 +11,8 @@ class HomePage extends Component {
     selectedFood: null,
   }
 
-  getRecipes = (recipeId) => {
-    axios.get(`http://localhost:8080/mix/${recipeId}`)
+  getRecipes = (id) => {
+    axios.get(`http://localhost:8080/mix/${id}`)
       .then(response => {
         this.setState({ selectedFood: response.data, })
       })
@@ -32,8 +32,8 @@ class HomePage extends Component {
           FoodRecipe: response.data
         })
 
-        const recipeId = Math.floor(Math.random() * 9)
-        this.getRecipes(recipeId)
+        const id = this.props.match.params.id || response.data[0].id;
+        this.getRecipes(id)
       })
   }
 

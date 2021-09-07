@@ -10,8 +10,10 @@ class VeganPage extends Component {
     selectedVeganFood: null,
   }
 
-  getVeganRecipes = (recipeId) => {
-    axios.get(`http://localhost:8080/vegan/${recipeId}`)
+
+
+  getVeganRecipes = (id) => {
+    axios.get(`http://localhost:8080/vegan/${id}`)
       .then(response => {
         this.setState({ selectedVeganFood: response.data, })
       })
@@ -30,8 +32,8 @@ class VeganPage extends Component {
         this.setState({
           veganFoodRecipe: response.data
         })
-        const recipeId = response.data[0].id
-        this.getVeganRecipes(recipeId)
+        const id = this.props.match.params.id || response.data[0].id;
+        this.getVeganRecipes(id)
       })
   }
 

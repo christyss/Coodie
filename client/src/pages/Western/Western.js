@@ -10,8 +10,8 @@ class WesternPage extends Component {
     selectedWesternFood: null,
   }
 
-  getWesternRecipes = (recipeId) => {
-    axios.get(`http://localhost:8080/western/${recipeId}`)
+  getWesternRecipes = (id) => {
+    axios.get(`http://localhost:8080/western/${id}`)
       .then(response => {
         this.setState({ selectedWesternFood: response.data, })
       })
@@ -30,8 +30,8 @@ class WesternPage extends Component {
         this.setState({
           WesternFoodRecipe: response.data
         })
-        const recipeId = response.data[0].id
-        this.getWesternRecipes(recipeId)
+        const id = this.props.match.params.id || response.data[0].id;
+        this.getWesternRecipes(id)
       })
   }
 

@@ -20,6 +20,14 @@ router.get('/', (req, res) => {
     }
 });
 
+router.get('/:id', (req, res) => {
+    const id = readVideosFile();
+    const individualId = id.find((eyedee) => eyedee.id === req.params.id)
+    if (!individualId) {
+        return res.status(404).send('Id not found')
+    }
+    res.json(individualId)
+})
 
 
 module.exports = router;

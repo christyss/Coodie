@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from 'react';
+import Header from './components/PageHeader/PageHeader';
+import Home from './pages/Home/Home';
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
+import Asian from './pages/Asian/Asian'
+import Vegan from './pages/Vegan/Vegan'
+import Western from './pages/Western/Western'
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path='/asian' exact component={Asian} />
+          <Route path='/asian/:recipeId' component={Asian} />
+          <Route path='/vegan' exact component={Vegan} />
+          <Route path='/vegan/:recipeId' component={Vegan} />
+          <Route path='/western' exact component={Western} />
+          <Route path='/western/:recipeId' component={Western} />
+        </Switch>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

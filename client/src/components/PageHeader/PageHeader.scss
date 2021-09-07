@@ -1,11 +1,11 @@
 @use '../../partials/global';
 
 .header{
-    margin: 2rem 1rem;
-    border-bottom: 1px solid white;
+    padding: 1.5rem 1rem;
 
     .page-title{
         font-size: 3rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid white;
     }
 }

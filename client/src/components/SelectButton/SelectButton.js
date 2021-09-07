@@ -5,18 +5,11 @@ import { Link } from 'react-router-dom'
 function SelectButton() {
     return (
         <section className="selection-btn">
-            <Link to='/'>
-                <button className="selection-btn__all">Mix</button>
-            </Link>
-            <Link to='/asian'>
-                <button className="selection-btn__asian">Asian</button>
-            </Link>
-            <Link to='/western'>
-                <button className="selection-btn__western">Western</button>
-            </Link>
-            <Link to='/vegan'>
-                <button className="selection-btn__vegan">Vegan</button>
-            </Link>            
+           
+            <Link to='/'className="selection-btn__all">Mix</Link>
+            <Link to='/asian'className="selection-btn__asian">Asian</Link>
+            <Link to='/western' className="selection-btn__western">Western</Link>
+            <Link to='/vegan' className="selection-btn__vegan">Vegan</Link>            
         </section >
     )
 }

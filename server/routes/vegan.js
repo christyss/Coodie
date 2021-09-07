@@ -10,12 +10,6 @@ const readVideosFile = () => {
     return parsedFileContent;
 }
 
-const writeVideosFile = (info) => {
-    const infoStringify = JSON.stringify(info);
-    fs.writeFileSync(veganRecipe, infoStringify)
-}
-
-
 
 router.get('/', (req, res) => {
     try {

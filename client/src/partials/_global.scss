@@ -1,0 +1,33 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+    
+}
+
+.dish-section{
+    margin: 1rem;
+    .dish__image{
+        margin: 2rem 0;
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    .dish{
+        font-size: 1rem;
+        line-height: 2rem;
+        &__ingredients{
+            padding: 0;
+            &-list{
+                margin: 0 1rem 0 2.5rem;
+            }
+        }
+        &__instruction{
+            padding: 0;
+            &-list{
+                margin: 0 1rem 0 2.5rem;
+            }
+        }
+    }
+}
+

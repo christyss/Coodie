@@ -1,6 +1,7 @@
 import {Component} from 'react';
 import Hero from '../../components/Hero/Hero';
 import SelectButton from '../../components/SelectButton/SelectButton';
+import './Home.scss';
 
 class HomePage extends Component{
 //   state = {
@@ -23,22 +24,21 @@ class HomePage extends Component{
     <div className="Home">
       <Hero />
       <SelectButton />
-      <section className="home">
-      <div className="home-dish__image"></div>
-      <button className="dish-btn">Shuffle</button>
-      <div className="home-dish">
-        <h3 className="home-dish__name">Name: <span></span></h3>
-        <h3 className="home-dish__serves">Serves: <span></span></h3>
-        <h3 className="home-dish__prep-time">Prep-Time: <span></span></h3>
+      <section className="dish-section home">
+      <img src="" className="dish__image" />
+      <div className="dish">
+        <h3 className="dish__name">Name: <span></span></h3>
+        <h3 className="dish__serves">Serves: <span></span></h3>
+        <h3 className="dish__prep-time">Prep-Time: <span></span></h3>
         <h3 className="home-dish__cook-time">Cook Time: <span></span></h3>
-        <h3 className="home-dish__total-time">Total Time: <span></span></h3>
-        <ul className="home-dish__ingredients">
-          Ingredients:
-          <li></li>
+        <h3 className="dish__total-time">Total Time: <span></span></h3>
+        <ul className="dish__ingredients">
+          <h3>Ingredients:</h3>
+          <li className="dish__ingredients-list"></li>
         </ul>
-        <ol className="home-dish__instruction">
-          Instruction:
-          <li></li>
+        <ol className="dish__instruction">
+          <h3>Instruction:</h3>
+          <li className="dish__instruction-list"></li>
         </ol>
       </div>
       </section>

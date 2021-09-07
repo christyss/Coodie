@@ -2,14 +2,19 @@
 
 .selection-btn{
     margin: 0.5rem;
+    display: flex;
+    justify-content: space-around;
 
+    &__all{
+        @include selectButton;
+        color: rgb(197, 133, 13);
+    }
     &__asian{
         @include selectButton;
         color: #DB2E24;
     }
     &__western{
         @include selectButton;
-        margin: 0 0.5rem;
         color: #315AA5;
     }
     &__vegan{

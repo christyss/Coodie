@@ -4,10 +4,11 @@
     margin: 0.5rem;
     display: flex;
     justify-content: space-around;
+    background-color: rgba(207, 197, 197, 0.5);
 
     &__all{
         @include selectButton;
-        color: rgb(197, 133, 13);
+        color: rgb(145, 99, 14);
     }
     &__asian{
         @include selectButton;

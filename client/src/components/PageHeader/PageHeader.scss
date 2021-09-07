@@ -1,4 +1,5 @@
-@use '../../partials/global';
+@use '../../partials/global' as *;
+@use '../../partials/typography' as *;
 
 .header{
     padding: 1.5rem 1rem;
@@ -7,5 +8,6 @@
         font-size: 3rem;
         padding-bottom: 0.5rem;
         border-bottom: 1px solid white;
+        font-family:'Lucida Sans Unicode';
     }
 }

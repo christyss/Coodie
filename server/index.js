@@ -7,6 +7,7 @@ const cors = require('cors');
 const asian = require('./routes/asian');
 const vegan = require('./routes/vegan');
 const western = require('./routes/western');
+const mix = require('./routes/mix');
 
 
 //Middleware
@@ -23,6 +24,7 @@ app.use((_req, _res, next) => {
 app.use('/asian', asian);
 app.use('/vegan', vegan);
 app.use('/western', western);
+app.use('/mix', mix)
 
 
 app.listen(PORT, () => {

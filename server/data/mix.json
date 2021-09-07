@@ -1,0 +1,237 @@
+[
+    {
+        "id": "1",
+        "name": "Ginger Pork - Pork Shogayaki",
+        "image": "http://localhost:8080/images/asian-pork.jpeg",
+        "serves": "1 - 2 servings",
+        "prepTime": "5 mins",
+        "cookTime": "10 mins",
+        "totalTime": "15 mins",
+        "recipeIngredient": [
+            "8 oz thinly sliced pork belly",
+            "1 inch ginger grated",
+            "1/2 medium yellow onion sliced",
+            "2 tbsp soy sauce",
+            "2 tbsp mirin",
+            "2 tbsp rice wine",
+            "1 tsp sugar"
+        ],
+        "recipeInstruction": [
+            "grate ginger with a grater and slice onion",
+            "pan fry thinly sliced pork",
+            "add onions and ginger",
+            "add soy sauce, mirin, rice wine, and sugar and stir to incorporate",
+            "cover with lid and cook for 3-5 minutes",
+            "remove cover and reduce liquid by 50%",
+            "pour contents over rice and serve"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "COCA COLA CHICKEN WING",
+        "image": "http://localhost:8080/images/asian-coke-wing.jpeg",
+        "serves": "1 - 2 servings",
+        "prepTime": "10 mins",
+        "cookTime": "25 mins",
+        "totalTime": "35 mins",
+        "recipeIngredient": [
+            "12 chicken wings",
+            "Vegetable oil",
+            "1 can coca-cola",
+            "3 pieces of ginger",
+            "1/3 teaspoon salt",
+            "2 tablespoons beer",
+            "1 tablespoon light soy sauce",
+            "1/2 tablespoon dark soy sauce",
+            "1 teaspoon cooked white sesame seeds"
+        ],
+        "recipeInstruction": [
+            "Wash the chicken wings with water. Cut two knives on the back of the chicken wings. Cut a piece of ginger into silks",
+            "Add the chicken wings, 2 pieces of ginger and enough water in a pan and cook it until boiling. Continue to cook it for 2 minutes. Pour off the hot water, wash and drain the chicken wings",
+            "Heat a pan with oil, fry the chicken wings until fragrant. Turn it over and continue to fry it until fragrant",
+            "Sprinkle ginger silks and 2 tablespoons beer in the pan and cook it until the beer has thickened. Add 1 tablespoon light soy sauce and 1/2 tablespoon dark soy sauce in the pan",
+            "Stir-fry the chicken wings a few times. Pour the coca-cola in the pan and cook it until boiling",
+            "Cover the lid. Continue to cook it under middle heat until the sauce has reduced a half. Add salt and cook it under high heat until the sauce has thickened",
+            "Transfer the chicken on a plate and sprinkle cooked white sesame seeds and serve"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Korean Beef Bulgogi",
+        "image": "http://localhost:8080/images/asian-bulgogi.jpeg",
+        "serves": "5 - 6 servings",
+        "prepTime": "2 hrs 45 mins",
+        "cookTime": "15 mins",
+        "totalTime": "3 hrs",
+        "recipeIngredient": [
+            "680 g boneless rib eye steak",
+            "1/2 small pear, peeled and coarsely grated",
+            "1/4 cup reduced sodium soy sauce",
+            "2 tablespoons brown sugar",
+            "2 tablespoons toasted sesame oil",
+            "3 cloves garlic, minced",
+            "1 tablespoon freshly grated ginger",
+            "1 tablespoon gochujang (Korean red pepper paste)",
+            "2 tablespoons vegetable oil, divided",
+            "2 green onions, thinly sliced",
+            "1 teaspoon toasted sesame seeds"
+        ],
+        "recipeInstruction": [
+            "Wrap steak in plastic wrap, and place in the freezer for 30 minutes. Unwrap and slice across the grain into 1/4-inch thick slices",
+            "In a medium bowl, combine pear, soy sauce, brown sugar, sesame oil, garlic, ginger and gochujang. In a gallon size Ziploc bag, combine soy sauce mixture and steak; marinate for at least 2 hours to overnight, turning the bag occasionally",
+            "Heat 1 tablespoon vegetable oil in a cast iron grill pan over medium-high heat. * Working in batches, add steak to the grill pan in a single layer and cook, flipping once, until charred and cooked through, about 2-3 minutes per side. Repeat with remaining 1 tablespoon vegetable oil and steak",
+            "Serve immediately, garnished with green onions and sesame seeds, if desired"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Vegan Omelette",
+        "image": "http://localhost:8080/images/vegan-omelette.jpeg",
+        "serves": "1 - 2 servings",
+        "prepTime": "20 mins",
+        "cookTime": "22 mins",
+        "totalTime": "42 mins",
+        "recipeIngredient": [
+            "oil for frying",
+            "300g mushrooms",
+            "2 garlic cloves",
+            "handful of cherry tomatoes",
+            "2 handfuls of spinach",
+            "salt and pepper",
+            "100g chickpea flour",
+            "1 tbsp nutritional yeast",
+            "1/4 tsp turmeric",
+            "1/4 tsp paprika",
+            "1 tsp oregano",
+            "1/2 tsp onion powder",
+            "1/4 tsp baking powder",
+            "180ml plant-based milk (we use oat milk)",
+            "2 tsp apple cider vinegar",
+            "handful of curly parsley"
+        ],
+        "recipeInstruction": [
+            "Add a splash of oil to a frying pan on a medium heat. Roughly slice the mushrooms and add them to the pan. Fry for 15 minutes or until golden brown, stirring occasionally",
+            "Peel and dice the garlic. Add it to the pan and fry for a minute, stirring occasionally",
+            "Slice the cherry tomatoes in half. Add them to the pan along with the spinach and season with salt and pepper. Fry for 5 minutes, stirring occasionally. When the veggies are ready, transfer them to a tray and leave to one side while you carry out the next few steps (tip: we usually leave the veggies in the oven on a very low heat to keep them warm)",
+            "Combine the chickpea flour, nutritional yeast, turmeric, paprika, oregano, onion powder, baking powder, oat milk and apple cider vinegar in a large mixing bowl. Whisk the ingredients together until the mixture is completely smooth",
+            "Wipe out to pan you used earlier, add a splash of oil and place on a low-medium heat. When the oil is hot, pour in half of the mixture and move the pan around to form a circle and until the omelette is approx. 18cm (7inches) in diameter. Cover with a lid and steam fry for 5 minutes. Add half of the cooked veggies from earlier to one side of the omelette and carefully fold the remaining half on top. If it feels like the omelette is about to break, leave it to fry for another minute then try again",
+            "Remove the omelette from the pan and serve on a plate. Roughly chop the parsley and sprinkle it on top. Enjoy!"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Vegan Eggplant Pasta",
+        "image": "http://localhost:8080/images/vegan-eggplant.jpeg",
+        "serves": "3 - 4 servings",
+        "prepTime": "20 mins",
+        "cookTime": "40 mins",
+        "totalTime": "1 hr",
+        "recipeIngredient": [
+            "1 large eggplant, diced into ½-inch cubes (1 cm)",
+            "salt",
+            "1/4 cup olive oil, (+ 1 Tablespoon) 50 mL + 15 mL, divided",
+            "salt and pepper, to taste",
+            "5 cloves garlic, minced",
+            "1/2 teaspoon chili flakes",
+            "1/4 teaspoon dried oregano",
+            "1 can crushed tomatoes",
+            "1 cup vegetable stock OR water",
+            "341g whole-grain or gluten-free long pasta of your choice, such as spaghetti or linguini",
+            "6 whole fresh basil leaves, plus extra chopped, for garnish",
+            "1 cup pitted Kalamata olives, finely chopped"
+        ],
+        "recipeInstruction": [
+            "Preheat the oven to 400°F (200°C). Line a baking sheet with parchment paper and set aside",
+            "In a large bowl, toss the diced eggplant with a generous sprinkle of sea salt. Let the eggplant sit for 10 minutes to release some of its water. Pour the salted eggplant into a colander and rinse with fresh water. Dry the eggplant pieces as thoroughly as you can with a kitchen towel, and then lay them on the prepared baking sheet",
+            "Toss the eggplant with 1 tablespoon (15 mL) of the olive oil and the salt and pepper. Spread the eggplant out into a single layer. Slide the baking sheet into the oven, and roast until the eggplant is tender and has browned slightly, about 20 minutes. Set aside",
+            "In a large, deep skillet (or braiser), heat the remaining ¼ cup (50 mL) of olive oil over medium heat. Add the garlic, stir, and sauté for about 30 seconds or until fragrant. Add the chili flakes and oregano, and stir. Add the tomatoes and vegetable stock to the skillet, and stir to combine. Bring to a boil, uncovered. Lower the heat and simmer the sauce for 30 minutes",
+            "Meanwhile, cook the pasta according to package directions. Drain and set aside",
+            "Drop the basil leaves into the tomato sauce and submerge the leaves. Cover the sauce and let it continue to cook for 10 more minutes",
+            "Remove the basil leaves from the sauce, and season it with salt and pepper. Add the roasted eggplant and chopped olives to the sauce, and stir to distribute. Carefully toss the cooked pasta in the sauce. After the noodles are coated in sauce, sprinkle the chopped basil on top. Serve the pasta hot"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Garlic butter baked salmon",
+        "image": "http://localhost:8080/images/western-baked-salmon.jpeg",
+        "serves": "2 servings",
+        "prepTime": "10 mins",
+        "cookTime": "25 mins",
+        "totalTime": "35 mins",
+        "recipeIngredient": [
+            "500g fingerling potatoes, halved (or Yukon golds or halved white/red baby potatoes)",
+            "1 tablespoons olive oil",
+            "0.75 teaspoons salt, divided",
+            "0.25 teaspoon cracked black pepper, divided",
+            "2 (6 oz | 170 g) skinless salmon fillets",
+            "1.25 tablespoons minced garlic, divided",
+            "1 tablespoons fresh chopped parsley",
+            "0.17 cup freshly squeezed lemon juice",
+            "0.25 cup melted unsalted butter",
+            "1.5 bunches asparagus, (18 spears, woody ends removed)",
+            "1 tablespoons dry white wine (substitute with 1/4 cup low-sodium chicken broth)",
+            "0.5 lemon sliced to garnish"
+        ],
+        "recipeInstruction": [
+            "Heat oven to 400°F | 200°C. On a large rimmed baking sheet, toss together potatoes with the oil, 1/2 tablespoon of garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Spread out in an even layer and roast for 15 minutes until they're just starting to soften and brown.",
+            "Push potatoes to one side of the sheet pan and arrange salmon down the centre. Rub salmon evenly with 1 1/2 tablespoons of the minced garlic and 2 tablespoons of parsley. Add the asparagus to the other side of the pan. ",
+            "Combine 1/4 cup of lemon juice and 1/4 cup of the melted butter together and pour the mixture over the salmon and asparagus. Season everything with the remaining salt and pepper.",
+            "Return to oven and continue baking until the potatoes are golden and fork-tender and the salmon is opaque throughout, (about 10 minutes). Optional: broil in the last 2 minutes for charred edges.",
+            "Meanwhile, in a small bowl, combine the remaining butter, garlic and lemon juice with the wine (or chicken stock). Serve with the salmon, veggies and lemon slices!"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Pan Seared Steak",
+        "image": "http://localhost:8080/images/western-steak.jpeg",
+        "serves": "1 servings",
+        "prepTime": "2 mins",
+        "cookTime": "8 mins",
+        "totalTime": "1hr 10mins",
+        "recipeIngredient": [
+            "1 ribeye steak or porterhouse, strip, etc",
+            "Salt to taste",
+            "Black pepper to taste",
+            "1 teaspoon oil (any high smoke point oil, like vegetable, avocado, etc"
+        ],
+        "recipeInstruction": [
+            "60 minutes before cooking, remove the steaks from the fridge and let sit at room temperature.",
+            "Pat your steak as dry as you can with a paper towel.",
+            "Heat a cast iron skillet over medium high heat for several minutes, until the pan almost begins to smoke.",
+            "Season the steak all over with salt and pepper. I know how much salt to put on by eye, but 1/4 tsp for each side is about how much I do if you want to measure.",
+            "Use a brush to spread the oil out on the preheated skillet, then add the steaks. They should sizzle loudly.",
+            "Sear for 3-4 minutes on each side, until browned on the outside and medium rare on the inside.",
+            "Let the meat rest on a plate for at least 5 minutes after cooking. Enjoy!"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Diner-Style Sausage and Hash Browns",
+        "image": "http://localhost:8080/images/western-diner-style-breakfast.jpeg",
+        "serves": "2 servings",
+        "prepTime": "10 mins",
+        "cookTime": "20mins",
+        "totalTime": "40mins",
+        "recipeIngredient": [
+            "Olive Oil",
+            "Salt",
+            "Pepper",
+            "Baking Sheet ",
+            "1 Colander",
+            "1 Box Grater",
+            "1 Medium Non-Stick Pan"
+        ],
+        "recipeInstruction": [
+            "Preheat oven to 425 degrees",
+            "If using any fresh produce, thoroughly rinse and pat dry",
+            "Prepare a baking sheet with foil",
+            "Be sure to scrape out all the cream sauce from the carton; some might stick!",
+            "Separation is natural when shipping liquid eggs. Shake well before using.",
+            "Grate potato on large hole side of box grater. Place grated potatoes in colander and rinse thoroughly. Transfer potatoes to a clean kitchen towel and wring out as much liquid as possible. Drying potatoes thoroughly are key to crispy hash browns. Trim and thinly slice green onions on an angle, keeping white and green portions separate. Coarsely chop roasted red peppers.",
+            "Place sausages on one side of prepared baking sheet. Bake 10 minutes, flip, and add bread to other side of sheet. Bake an additional 5-6 minutes, or until sausages reach a minimum internal temperature of 160 degrees and bread is toasted.",
+            "While sausages are cooking, place half the butter in a medium non-stick pan over medium heat. Once melted, add potatoes and white parts of green onions. Using a spatula, press potatoes into an even layer to completely cover pan. Cook, undisturbed, 5 minutes, or until undersides are golden brown. Top potatoes with remaining butter. Once melted, flip potatoes and cook, undisturbed, 5 minutes, or until undersides are brown and potatoes are tender. Transfer to a plate and season with ½ tsp. salt and ¼ tsp. pepper.",
+            "Place 1 tsp. olive oil in same pan used for hash browns (no need to wipe pan clean) over medium heat. Add liquid eggs and roasted red peppers. Use a rubber spatula to constantly scrape along bottom of pan until eggs are set and a little wet, about 2-3 minutes. Remove from burner, sprinkle shredded cheddar on top, then fold omelet in half. Season to taste with salt and pepper.",
+            "Serve hash browns on a plate. Add sausages along with half the omelet. Finish with a piece of toast and strawberry preserves. Garnish omelet with green parts of green onion."
+        ]
+    }
+]

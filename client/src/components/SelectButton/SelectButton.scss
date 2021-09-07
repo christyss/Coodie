@@ -1,25 +1,81 @@
 @use '../../partials/mixins' as *;
 
 .selection-btn{
-    margin: 0.5rem;
+    height: 3rem;
+    margin: 1.5rem 0.5rem;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(207, 197, 197, 0.5);
-
+    @include desktop{
+        margin: 3rem 5rem 8rem 5rem;
+        
+    }
     &__all{
         @include selectButton;
+        text-align: center;
         color: rgb(145, 99, 14);
+        background-image: url(../../assets/icons/pizza.png);
+        background-size: cover;
+        width: 3rem;
+        background-position: center;
+        padding-top: 2.7rem;
+        @include desktop{
+            height: 6rem;
+            width: 6rem;
+            background-position: center;
+            padding-top: 6rem;
+            object-fit: cover;
+            
+        }
+       
     }
     &__asian{
         @include selectButton;
+        text-align: center;
         color: #DB2E24;
+        background-image: url(../../assets/icons/ramen.png);
+        background-size: contain;
+        width: 3rem;
+        background-position: center;
+        padding-top: 2.7rem;
+        @include desktop{
+            width: 6rem;
+            background-position: center;
+            padding-top: 6rem;
+            object-fit: cover;
+        }
     }
     &__western{
         @include selectButton;
         color: #315AA5;
+        background-image: url(../../assets/icons/steak.png);
+        background-size: contain;
+        width: 3rem;
+        background-position: center;
+        padding-top: 2.7rem;
+        text-align: center;
+        @include desktop{
+            width: 6rem;
+            background-position: center;
+            padding-top: 6rem;
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
     }
     &__vegan{
         @include selectButton;
-        color:#94A531;
+        color:#98d623;
+        background-image: url(../../assets/icons/salad.png);
+        background-size: contain;
+        width: 3rem;
+        background-position: center;
+        padding-top: 2.7rem;
+        text-align: center;
+        @include desktop{
+            width: 6rem;
+            background-position: center;
+            padding-top: 6rem;
+            object-fit: cover;
+            background-repeat: no-repeat;
+        }
     }
 }

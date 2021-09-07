@@ -39,7 +39,7 @@ class VeganPage extends Component {
     }
     return (
       <section className="dish-section-vegan">
-        <div className="dish__image"></div>
+        <img className="dish__image" src={this.state.selectedVeganFood.image}></img>
         <button className="dish-btn">Shuffle</button>
         <div className="dish">
           <h3 className="dish__name">Name: <span>{this.state.selectedVeganFood.name}</span></h3>

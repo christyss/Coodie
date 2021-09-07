@@ -40,7 +40,7 @@ class AsianPage extends Component {
     }
     return (
       <section className="dish-section-asian">
-        <div className="dish__image"></div>
+        <img className="dish__image" src={this.state.selectedAsianFood.image}></img>
         <button className="dish-btn">Shuffle</button>
         <div className="dish">
           <h3 className="dish__name">Name:<span> {this.state.selectedAsianFood.name}</span></h3>

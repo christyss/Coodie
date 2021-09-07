@@ -2,7 +2,7 @@
     {
         "id": "2001",
         "name": "Garlic butter baked salmon",
-        "photo": "http://localhost:8080/images/asian-pork.jpeg",
+        "image": "http://localhost:8080/images/western-baked-salmon.jpeg",
         "serves": "2 servings",
         "prepTime": "10 mins",
         "cookTime": "25 mins",
@@ -22,17 +22,17 @@
             "0.5 lemon sliced to garnish"
         ],
         "recipeInstruction": [
-            "1. Heat oven to 400°F | 200°C. On a large rimmed baking sheet, toss together potatoes with the oil, 1/2 tablespoon of garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Spread out in an even layer and roast for 15 minutes until they're just starting to soften and brown.",
-            "2. Push potatoes to one side of the sheet pan and arrange salmon down the centre. Rub salmon evenly with 1 1/2 tablespoons of the minced garlic and 2 tablespoons of parsley. Add the asparagus to the other side of the pan. ",
-            "3. Combine 1/4 cup of lemon juice and 1/4 cup of the melted butter together and pour the mixture over the salmon and asparagus. Season everything with the remaining salt and pepper.",
-            "4. Return to oven and continue baking until the potatoes are golden and fork-tender and the salmon is opaque throughout, (about 10 minutes). Optional: broil in the last 2 minutes for charred edges.",
-            "5. Meanwhile, in a small bowl, combine the remaining butter, garlic and lemon juice with the wine (or chicken stock). Serve with the salmon, veggies and lemon slices!"
+            "Heat oven to 400°F | 200°C. On a large rimmed baking sheet, toss together potatoes with the oil, 1/2 tablespoon of garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Spread out in an even layer and roast for 15 minutes until they're just starting to soften and brown.",
+            "Push potatoes to one side of the sheet pan and arrange salmon down the centre. Rub salmon evenly with 1 1/2 tablespoons of the minced garlic and 2 tablespoons of parsley. Add the asparagus to the other side of the pan. ",
+            "Combine 1/4 cup of lemon juice and 1/4 cup of the melted butter together and pour the mixture over the salmon and asparagus. Season everything with the remaining salt and pepper.",
+            "Return to oven and continue baking until the potatoes are golden and fork-tender and the salmon is opaque throughout, (about 10 minutes). Optional: broil in the last 2 minutes for charred edges.",
+            "Meanwhile, in a small bowl, combine the remaining butter, garlic and lemon juice with the wine (or chicken stock). Serve with the salmon, veggies and lemon slices!"
         ]
     },
     {
         "id": "2002",
         "name": "Pan Seared Steak",
-        "photo": "http://localhost:8080/images/western-steak.jpeg",
+        "image": "http://localhost:8080/images/western-steak.jpeg",
         "serves": "1 servings",
         "prepTime": "2 mins",
         "cookTime": "8 mins",
@@ -44,36 +44,43 @@
             "1 teaspoon oil (any high smoke point oil, like vegetable, avocado, etc"
         ],
         "recipeInstruction": [
-            "1. 60 minutes before cooking, remove the steaks from the fridge and let sit at room temperature.",
-            "2. Pat your steak as dry as you can with a paper towel.",
-            "3. Heat a cast iron skillet over medium high heat for several minutes, until the pan almost begins to smoke.",
-            "4. Season the steak all over with salt and pepper. I know how much salt to put on by eye, but 1/4 tsp for each side is about how much I do if you want to measure.",
-            "5. Use a brush to spread the oil out on the preheated skillet, then add the steaks. They should sizzle loudly.",
-            "6. Sear for 3-4 minutes on each side, until browned on the outside and medium rare on the inside.",
-            "7. Let the meat rest on a plate for at least 5 minutes after cooking. Enjoy!"
+            "60 minutes before cooking, remove the steaks from the fridge and let sit at room temperature.",
+            "Pat your steak as dry as you can with a paper towel.",
+            "Heat a cast iron skillet over medium high heat for several minutes, until the pan almost begins to smoke.",
+            "Season the steak all over with salt and pepper. I know how much salt to put on by eye, but 1/4 tsp for each side is about how much I do if you want to measure.",
+            "Use a brush to spread the oil out on the preheated skillet, then add the steaks. They should sizzle loudly.",
+            "Sear for 3-4 minutes on each side, until browned on the outside and medium rare on the inside.",
+            "Let the meat rest on a plate for at least 5 minutes after cooking. Enjoy!"
         ]
     },
     {
         "id": "2003",
         "name": "Diner-Style Sausage and Hash Browns",
-        "photo": "http://localhost:8080/images/western-diner-style-breakfast.jpeg",
+        "image": "http://localhost:8080/images/western-diner-style-breakfast.jpeg",
         "serves": "2 servings",
         "prepTime": "10 mins",
         "cookTime": "20mins",
         "totalTime": "40mins",
         "recipeIngredient": [
-            "1. Preheat oven to 425 degrees",
-            "2. If using any fresh produce, thoroughly rinse and pat dry",
-            "3. Prepare a baking sheet with foil",
-            "4. Be sure to scrape out all the cream sauce from the carton; some might stick!",
-            "5. Separation is natural when shipping liquid eggs. Shake well before using."
+            "Olive Oil",
+            "Salt",
+            "Pepper",
+            "Baking Sheet ",
+            "1 Colander",
+            "1 Box Grater",
+            "1 Medium Non-Stick Pan"
         ],
         "recipeInstruction": [
-            "1. Grate potato on large hole side of box grater. Place grated potatoes in colander and rinse thoroughly. Transfer potatoes to a clean kitchen towel and wring out as much liquid as possible. Drying potatoes thoroughly are key to crispy hash browns. Trim and thinly slice green onions on an angle, keeping white and green portions separate. Coarsely chop roasted red peppers.",
-            "2. Place sausages on one side of prepared baking sheet. Bake 10 minutes, flip, and add bread to other side of sheet. Bake an additional 5-6 minutes, or until sausages reach a minimum internal temperature of 160 degrees and bread is toasted.",
-            "3. While sausages are cooking, place half the butter in a medium non-stick pan over medium heat. Once melted, add potatoes and white parts of green onions. Using a spatula, press potatoes into an even layer to completely cover pan. Cook, undisturbed, 5 minutes, or until undersides are golden brown. Top potatoes with remaining butter. Once melted, flip potatoes and cook, undisturbed, 5 minutes, or until undersides are brown and potatoes are tender. Transfer to a plate and season with ½ tsp. salt and ¼ tsp. pepper.",
-            "4. Place 1 tsp. olive oil in same pan used for hash browns (no need to wipe pan clean) over medium heat. Add liquid eggs and roasted red peppers. Use a rubber spatula to constantly scrape along bottom of pan until eggs are set and a little wet, about 2-3 minutes. Remove from burner, sprinkle shredded cheddar on top, then fold omelet in half. Season to taste with salt and pepper.",
-            "5. Serve hash browns on a plate. Add sausages along with half the omelet. Finish with a piece of toast and strawberry preserves. Garnish omelet with green parts of green onion."
+            "Preheat oven to 425 degrees", 
+            "If using any fresh produce, thoroughly rinse and pat dry",
+            "Prepare a baking sheet with foil",
+            "Be sure to scrape out all the cream sauce from the carton; some might stick!",
+            "Separation is natural when shipping liquid eggs. Shake well before using.",
+            "Grate potato on large hole side of box grater. Place grated potatoes in colander and rinse thoroughly. Transfer potatoes to a clean kitchen towel and wring out as much liquid as possible. Drying potatoes thoroughly are key to crispy hash browns. Trim and thinly slice green onions on an angle, keeping white and green portions separate. Coarsely chop roasted red peppers.",
+            "Place sausages on one side of prepared baking sheet. Bake 10 minutes, flip, and add bread to other side of sheet. Bake an additional 5-6 minutes, or until sausages reach a minimum internal temperature of 160 degrees and bread is toasted.",
+            "While sausages are cooking, place half the butter in a medium non-stick pan over medium heat. Once melted, add potatoes and white parts of green onions. Using a spatula, press potatoes into an even layer to completely cover pan. Cook, undisturbed, 5 minutes, or until undersides are golden brown. Top potatoes with remaining butter. Once melted, flip potatoes and cook, undisturbed, 5 minutes, or until undersides are brown and potatoes are tender. Transfer to a plate and season with ½ tsp. salt and ¼ tsp. pepper.",
+            "Place 1 tsp. olive oil in same pan used for hash browns (no need to wipe pan clean) over medium heat. Add liquid eggs and roasted red peppers. Use a rubber spatula to constantly scrape along bottom of pan until eggs are set and a little wet, about 2-3 minutes. Remove from burner, sprinkle shredded cheddar on top, then fold omelet in half. Season to taste with salt and pepper.",
+            "Serve hash browns on a plate. Add sausages along with half the omelet. Finish with a piece of toast and strawberry preserves. Garnish omelet with green parts of green onion."
         ]
     }
 ]

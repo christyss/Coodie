@@ -2,16 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     color: white;
-    background-color: #FFD54D;
     
 }
 
 .dish-section{
     margin: 1rem;
     .dish__image{
-        margin: 1rem 0;
-        height: 12rem;
-        width: 10rem;
+        margin: 2rem 0;
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
     }
     .dish{
         font-size: 1rem;
@@ -19,13 +19,13 @@
         &__ingredients{
             padding: 0;
             &-list{
-                margin: 0 2rem;
+                margin: 0 1rem 0 2.5rem;
             }
         }
         &__instruction{
             padding: 0;
             &-list{
-                margin: 0 2rem;
+                margin: 0 1rem 0 2.5rem;
             }
         }
     }

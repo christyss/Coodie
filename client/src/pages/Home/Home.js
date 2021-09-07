@@ -25,7 +25,7 @@ class HomePage extends Component{
       <Hero />
       <SelectButton />
       <section className="dish-section home">
-      <div className="dish__image"></div>
+      <img src="" className="dish__image" />
       <div className="dish">
         <h3 className="dish__name">Name: <span></span></h3>
         <h3 className="dish__serves">Serves: <span></span></h3>

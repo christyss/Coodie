@@ -1,5 +1,8 @@
 import { Component } from 'react';
-import axios from 'axios'
+import './Asian.scss';
+import axios from 'axios';
+import Hero from '../../components/Hero/Hero';
+import SelectButton from '../../components/SelectButton/SelectButton';
 
 class AsianPage extends Component {
   state = {
@@ -40,8 +43,9 @@ class AsianPage extends Component {
     }
     return (
       <section className="dish-section asian">
-        <div className="dish__image"></div>
-        <button className="dish-btn">Shuffle</button>
+        <Hero />
+        <SelectButton />
+        <img src={this.state.selectedAsianFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedAsianFood.name}`} />
         <div className="dish">
           <h3 className="dish__name">Name:<span> {this.state.selectedAsianFood.name}</span></h3>
           <h3 className="dish__serves">Serves: <span>{this.state.selectedAsianFood.serves}</span></h3>
@@ -49,15 +53,15 @@ class AsianPage extends Component {
           <h3 className="dish__cook-time">Cook Time: <span>{this.state.selectedAsianFood.cookTime}</span></h3>
           <h3 className="dish__total-time">Total Time: <span>{this.state.selectedAsianFood.totalTime}</span></h3>
           <ul className="dish__ingredients">
-            Ingredients:
+            <h3>Ingredients:</h3>
             {this.state.selectedAsianFood.recipeIngredient.map(ingredient => (
-              <li>{ingredient}</li>
+              <li className="dish__ingredients-list">{ingredient}</li>
             ))}
           </ul>
           <ol className="dish__instruction">
-            Instruction:
+            <h3>Instruction:</h3>
             {this.state.selectedAsianFood.recipeInstruction.map(instruction => (
-              <li>{instruction}</li>
+              <li className="dish__ingredients-list">{instruction}</li>
             ))}
           </ol>
         </div>

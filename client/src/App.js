@@ -1,15 +1,18 @@
-import {Component} from 'react';
+import { Component } from 'react';
 import Header from './components/PageHeader/PageHeader';
-import SelectButton from './components/SelectButton/SelectButton.js';
+import Home from './pages/Home/Home';
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
-class App extends Component{
-  
-  render(){  
+class App extends Component {
+
+  render() {
     return (
-    <div className="App">
-      <Header />
-      <SelectButton />
-    </div>
+      <BrowserRouter>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }

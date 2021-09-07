@@ -42,16 +42,10 @@ class AsianPage extends Component {
       return <h2>Loading...</h2>
     }
     return (
-<<<<<<< HEAD
-      <section className="dish-section-asian">
-        <img className="dish__image" src={this.state.selectedAsianFood.image}></img>
-        <button className="dish-btn">Shuffle</button>
-=======
       <section className="dish-section asian">
         <Hero />
         <SelectButton />
         <img src={this.state.selectedAsianFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedAsianFood.name}`} />
->>>>>>> develop
         <div className="dish">
           <h3 className="dish__name">Name:<span> {this.state.selectedAsianFood.name}</span></h3>
           <h3 className="dish__serves">Serves: <span>{this.state.selectedAsianFood.serves}</span></h3>

@@ -41,14 +41,9 @@ class WesternPage extends Component {
     }
     return (
       <section className="dish-section western">
-<<<<<<< HEAD
-        <img className="dish__image" src={this.state.selectedWesternFood.image}></img>
-        <button className="dish-btn">Shuffle</button>
-=======
         <Hero />
         <SelectButton />
         <img src={this.state.selectedWesternFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedWesternFood.name}`} />
->>>>>>> develop
         <div className="dish">
           <h3 className="dish__name">Name: <span>{this.state.selectedWesternFood.name}</span></h3>
           <h3 className="dish__serves">Serves: <span>{this.state.selectedWesternFood.serves}</span></h3>

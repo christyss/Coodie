@@ -1,6 +1,6 @@
 [
     {
-        "id": "2001",
+        "id": "6",
         "name": "Garlic butter baked salmon",
         "image": "http://localhost:8080/images/western-baked-salmon.jpeg",
         "serves": "2 servings",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "id": "2002",
+        "id": "7",
         "name": "Pan Seared Steak",
         "image": "http://localhost:8080/images/western-steak.jpeg",
         "serves": "1 servings",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "id": "2003",
+        "id": "8",
         "name": "Diner-Style Sausage and Hash Browns",
         "image": "http://localhost:8080/images/western-diner-style-breakfast.jpeg",
         "serves": "2 servings",
@@ -71,7 +71,7 @@
             "1 Medium Non-Stick Pan"
         ],
         "recipeInstruction": [
-            "Preheat oven to 425 degrees", 
+            "Preheat oven to 425 degrees",
             "If using any fresh produce, thoroughly rinse and pat dry",
             "Prepare a baking sheet with foil",
             "Be sure to scrape out all the cream sauce from the carton; some might stick!",

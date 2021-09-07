@@ -1,3 +1,5 @@
+@use './../partials/mixins' as *;
+
 *, ::after, ::before{
     box-sizing: border-box;
     margin: 0;
@@ -9,25 +11,81 @@
 
 .dish-section{
     padding: 1rem;
+    @include desktop {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
     .dish__image{
         padding: 2rem 0;
         height: 20rem;
         width: 100%;
         object-fit: cover;
+
+        @include desktop{
+            height: 60rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
     }
     .dish{
         font-size: 1rem;
         line-height: 2rem;
         padding-left: 1rem;
         padding-top: 1rem;
+        @include desktop {
+            padding-left: 2rem;
+            display: flex;
+            flex-direction: row;
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+
+        &__span{
+            color: rgb(241, 238, 195);
+        }
+
+        &__flex{
+            @include desktop {
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+            }
+        }
+
         &__ingredients{
             padding: 0;
+            @include desktop {
+                padding-top: 2rem;
+                width: 80%;
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                padding-bottom: 2rem;
+            }
+
+            &-title{
+                color: rgb(241, 238, 195);
+            }
+
             &-list{
                 margin: 0 1rem 0 2.5rem;
             }
         }
         &__instruction{
             padding: 0;
+            @include desktop {
+                width: 60%;
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+            }
+
+            &-title{
+                color: rgb(241, 238, 195);
+            }
+
             &-list{
                 margin: 0 1rem 0 2.5rem;
             }

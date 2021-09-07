@@ -3,6 +3,7 @@ import axios from 'axios'
 import './Vegan.scss';
 import Hero from '../../components/Hero/Hero';
 import SelectButton from '../../components/SelectButton/SelectButton';
+import Header from '../../components/PageHeader/PageHeader';
 
 class VeganPage extends Component {
   state = {
@@ -42,6 +43,7 @@ class VeganPage extends Component {
     }
     return (
       <section className="dish-section vegan">
+        <Header />
         <Hero />
         <SelectButton />
         <img src={this.state.selectedVeganFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedVeganFood.name}`} />

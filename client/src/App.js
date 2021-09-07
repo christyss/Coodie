@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import Header from './components/PageHeader/PageHeader';
 import Home from './pages/Home/Home';
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 import Asian from './pages/Asian/Asian'
@@ -10,7 +9,6 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Header />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path='/asian' exact component={Asian} />

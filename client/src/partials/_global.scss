@@ -3,12 +3,13 @@
     margin: 0;
     color: white;
     
+    
 }
 
 .dish-section{
     padding: 1rem;
     .dish__image{
-        margin: 2rem 0;
+        padding: 2rem 0;
         height: 20rem;
         width: 100%;
         object-fit: cover;
@@ -16,6 +17,8 @@
     .dish{
         font-size: 1rem;
         line-height: 2rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
         &__ingredients{
             padding: 0;
             &-list{

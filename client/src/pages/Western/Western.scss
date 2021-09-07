@@ -1,1 +1,12 @@
 @use '../../partials/global' as *;
+
+.western{
+    background-image: url(../../assets/images/western-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+.dish{
+    background-color: rgba($color: grey, $alpha: 0.4);
+}

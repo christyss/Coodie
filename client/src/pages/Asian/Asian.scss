@@ -1,7 +1,9 @@
 @use '../../partials/global' as *;
-.header{
-    background-color: #BB3A5C;
-}
+
 .asian{
-    background-color: #BB3A5C;
+    background-image: url(../../assets/images/asian-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }

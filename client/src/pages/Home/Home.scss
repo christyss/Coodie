@@ -1,7 +1,9 @@
 @use '../../partials/global' as *;
-.header{
-    background-color: #FFD54D;
-}
+
 .Home{
-    background-color: #FFD54D;
+    background-image: url(../../assets/images/mix-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }

@@ -3,6 +3,7 @@ import axios from 'axios'
 import Hero from '../../components/Hero/Hero';
 import SelectButton from '../../components/SelectButton/SelectButton';
 import './Western.scss';
+import Header from '../../components/PageHeader/PageHeader';
 
 class WesternPage extends Component {
   state = {
@@ -41,6 +42,7 @@ class WesternPage extends Component {
     }
     return (
       <section className="dish-section western">
+        <Header />
         <Hero />
         <SelectButton />
         <img src={this.state.selectedWesternFood.image} className="dish__image" alt={"Photo of " + `${this.state.selectedWesternFood.name}`} />
